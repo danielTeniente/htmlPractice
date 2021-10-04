@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 430px;
+    min-height: 806px;
+    max-width: 956px;
+}
+
+#header {
+    padding: 18px 0 0 0;
+    border-top: #0d8dc6 2px solid;
+    box-shadow: 0px 7px 20px #e4e4e3 inset;
+}
+
+.sup-header #header{
+    min-height: 100px;
+}
+.sup-header {
+    min-height: 116px;
+    padding: 0 0 0 30px;
+}
+
+.sup-header-derecha {
+    max-height: 100px;
+    min-width: 600px;
+    max-width: 958px;
+    min-height: 39px;
+    float: right;
+}
+
+.ingreso_texto{
+    background: #efe;
+    border: #dde  1px solid ;
+    float: right;
+    height: 27px;
+    width: 237px;
+}
+.ingreso_texto input{
+    background-color: #efe;
+    border: 0;
+    width: 210px;
+    height: 20px;
+
+}
+.ingreso_texto a{
+    float: right;
+}
+.ingreso_texto a img{
+    float: right;
+    width: 18px;
+    padding: 6px 6px 0 0;
+}
+
+#logo {
+    float: left;
+    width: 300px;
+    height: 110px;
+}
+
+#buscar{
+    width: 100%;
+    float: right;
+    padding: 8px 30px 0 0;
+    height: 46px;
+}
+
+.logo_metropolitano{
+    float: right;
+    width: 200px;
+    height: 110px;    
+    margin: 0 13px 0 0;
+}
+.logo_metropolitano img{
+
+}
+
+.redes_sociales{
+    float: right;
+    padding: 0 24px 0 0;
+}
+
+.redes_sociales img{
+    float: right;
+    padding: 10px 4px 0 0;
+    height: 39px;
+    width: 33px;
+}
+
+nav{
+    background: #0086c2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top,#006695, #0086c2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #006695, #0086c2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 40px;
+    color: #fff;
+    margin: 0px 8px;
+    float: left;
+}
+
+.educacion{
+    min-width: 188px;
+}
+.acerca_de{
+    min-width: 140px;;
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: white;   
+    font-size: 15px;
+}
+nav ul li {
+    min-width: 96px;
+    text-align: center;
+    float: left;
+}
+
+nav ul {
+    display: block;
+    list-style: none;
+    padding: 10px 10px;
+}
+
+nav ul li img{
+    max-height: 20px;
+    float: left;    
+}
+
+
+
+
+#content{
+
+}
+
+#banner{
+    position: relative;
+    display: inline-block;
+
+    box-shadow: 3px 11px 24px 0px #999;
+}
+#banner img{
+    max-width: 100%;
+}
+.trapecio {
+    position: absolute;
+    bottom:  18%;
+    right: 0%;
+    max-width: 402px;
+    min-width: 365px;
+    max-height: 30px;
+    min-height: 27px;
+    border-right: 0px solid transparent;
+    border-left: 28px solid transparent;
+    border-bottom: 54px solid #a5a5a6;
+    opacity: 0.8;
+    margin: 0 11px;
+    
+}
+.trapecio-texto{
+    border-top: #0087c3 4px solid; 
+}
+
+.trapecio-texto h2{
+    font-size: 30px;
+    color: white;
+    opacity: 1;
+}
+
+.trapecio-texto span{
+    color: white;
+}
+.flechas{
+    position: absolute;
+    bottom: 0%;
+    left: 45.7%;
+    display: inline-block;
+}
+
+.flecha{
+    float: left;
+    background: black;
+    min-width: 21px;
+    min-height: 27px;
+    margin: 0 1px;
+}
+
+.flecha img{
+    padding: 8px 12px;
+}
+
+.informacion{
+    display: inline-block;
+    background: #f5f4f6;    
+    margin: 34px 0 0 0;
+    padding: 0 0 16px 0;
+}
+
+.informacion h2{
+    font-size: 30px;
+    color: #0087c3;
+    margin: 0 0 20px 0;
+}
+
+.novedades h2{
+    font-size: 25px;
+    
+}
+.novedades{
+    float: left;
+    width: 35%;
+    padding: 15px 28px 0 33px;
+}
+
+.dr-Ana{
+    float: left;
+    width: 65%;
+    border-left: #d5d5d5 1px solid;
+    padding: 9px 24px 0 38px;
+    font-size: 13px;
+}
+.dr-Ana img{
+    float: left;
+    float: left;
+    margin: 0 19px 3px 0;    
+}
+.dr-Ana span{
+
+}
+.dr-Ana p{
+
+}
+.texto_azul{
+    color: #034087;
+
+}
+
+.especialidades{
+    
+}
+.Imagenes-ejemplo {
+    float: left;
+    margin: 17px 0 0 30px;
+}
+
+
+.fecha{
+    background: black;
+    color: white;
+    max-width: 64px;
+    min-width: 64px;
+    min-height: 64px;
+    border-radius: 15px;
+    float: left;
+    text-align: center;
+    padding: 6px 0 0 0;
+    margin: 0 11px 0 0;
+}
+.fecha h3{
+    font-size: 30px;
+}
+.fecha span{
+    
+}
+
+.texto_noticia a{
+    color: black;
+}
+.texto_noticia span{
+    color: #8e8e8e;
+}
+.texto_noticia {
+    
+}
+.novedades img{
+    float: right;
+    padding: 7px 0;
+}
+.novedades a{
+    float: right;
+}
+
+.especialidades h2{
+    color:  #0087c3;
+    font-size: 30px;
+    margin: 0px 0 0 43px;
+}
+
+.Imagenes-ejemplo a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.Imagenes-ejemplo a img{
+    
+}
+
+.Imagenes-ejemplo a h3{
+    color: #034087;
+    font-size: 19px;
+}
+
+
+#footer nav a{
+    text-decoration: none;
+    color:#a5a5a5;
+}
+#footer nav{
+    border-top: #0087c3 3px solid;
+    padding: 21px 0 0 0;
+    background: white;
+    width: 100%;
+    min-height: 24px;
+    box-shadow: 0px 7px 20px #e4e4e3 inset;
+}
+#footer span{
+    color:#a5a5a5;
+    font-size: 12px;
+}
+#footer{
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0 0 0;
+}
